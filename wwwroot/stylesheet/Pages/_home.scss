@@ -1,0 +1,86 @@
+﻿@import "../Abstract/_variables.scss";
+nav.navbar {
+    background: linear-gradient($navy,$navy);
+    outline-color: $indigo;
+}
+.resume-button {
+    font-size: 14px;
+    color: $sh-cool-gray;
+    background-color: $navy;
+    margin-top: 10px;
+    border-color: $indigo;
+}
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+.numbering h1 {
+    color:$sh-cool-gray;
+    font:14px;
+}
+
+.signature{
+    font:14px;
+    color:$indigo;    
+}
+
+.resume-polygon {
+    color: $blue;
+}
+
+#pageloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1px;
+    height: 100vh;
+
+    .cta {
+        position: absolute;
+        display:inline;
+        top: 50%;
+        bottom:50%;
+        transform: translate(-50%,-50%);
+        font-size: 300%;
+        color: $indigo;
+        text-align: match-parent;        
+    }
+}
+
+.el {
+    position: absolute;
+    opacity: 1;
+    width: 2px;
+    height: 24vh;
+    margin-top: -12vh;
+    transform-origin: 50% 100%;
+    background: white;
+}
+
+
+
+
+
+
+
+
+body {
+    background: $navy
+}

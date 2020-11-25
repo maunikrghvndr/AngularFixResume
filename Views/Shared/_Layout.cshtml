@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Resume6</title>
+    <link rel="stylesheet" href="~/bootstrap/scss/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/stylesheet/Main.min.css" />
+</head>
+<div id="pageloader"
+              <div class="wrapper">
+                  <p class="cta">MNK<span></span></p>
+              </div>
+</div>
+<body>
+
+
+    <div class="customHiding" style="display:none">
+
+        <header>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a id="header-logo" href="/" aria-label="home" class="justify-content-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 84 96">
+                                    <polygon class="resume-polygon" id="Shape" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="39 0 0 22 0 67 39 90 78 68 78 23">
+                                    </polygon>
+                                    <text x="73" y="55" text-anchor="end"
+                                          fill="white" font-size="30" class="signature">MNK</text>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"><a class="nav-link" asp-page="/Home/AboutMe"> <numbering>01. </numbering>  About Me </a></li>
+                        <li class="nav-item"><a class="nav-link" asp-page="/Home/Experience"><numbering>02. </numbering>Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-page="/Events/Index"><numbering>03. </numbering>Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-page="/Home/Contact"><numbering>04. </numbering>Contact</a></li>
+                        <li class="nav-item">
+                            <button class="resume-button" asp-page="/Home/Contact">Resume</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+
+        </div>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - Resume2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<script src="~/velocityjs/src/velocity.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+<script src="~/animejs/lib/anime.es.js"></script>
+<script src="~/animejs/lib/anime.min.js"></script>
+<script src="~/animejs/lib/anime.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+   
+    setTimeout(function () {
+        document.getElementById("pageloader").style.display = "none";       
+        alert(style.display);
+
+    }, 6500);
+
+    setTimeout(function () {       
+        var ch = document.getElementsByClassName("customHiding")[0];
+        ch.style.display = "block";
+
+    }, 7000);
+        
+</script>
+
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+
