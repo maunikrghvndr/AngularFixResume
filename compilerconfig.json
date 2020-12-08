@@ -1,0 +1,38 @@
+﻿[
+  {
+    "outputFile": "wwwroot/stylesheet/Pages/_home.css",
+    "inputFile": "wwwroot/stylesheet/Pages/_home.scss"
+  },
+  {
+    "outputFile": "wwwroot/stylesheet/Main.css",
+    "inputFile": "wwwroot/stylesheet/Main.scss"
+  },
+  {
+    "outputFile": "wwwroot/stylesheet/Abstract/_variables.css",
+    "inputFile": "wwwroot/stylesheet/Abstract/_variables.scss"
+  },
+  {
+    "outputFile": "wwwroot/stylesheet/Other/_nav.css",
+    "inputFile": "wwwroot/stylesheet/Other/_nav.scss"
+  },
+  {
+    "outputFile": "ClientApp/projects/angular-app/src/app/app.component.css",
+    "inputFile": "ClientApp/projects/angular-app/src/app/app.component.scss"
+  },
+  {
+    "outputFile": "ClientApp/projects/angular-app/src/app/_variables.css",
+    "inputFile": "ClientApp/projects/angular-app/src/app/_variables.scss"
+  },
+  {
+    "outputFile": "ClientApp/projects/angular-app/src/styles.css",
+    "inputFile": "ClientApp/projects/angular-app/src/styles.scss"
+  },
+  {
+    "outputFile": "ClientApp/projects/angular-app/src/app/Intro/intro.component.css",
+    "inputFile": "ClientApp/projects/angular-app/src/app/Intro/intro.component.scss"
+  },
+  {
+    "outputFile": "ClientApp/projects/angular-app/src/app/AboutMe/aboutMe.component.css",
+    "inputFile": "ClientApp/projects/angular-app/src/app/AboutMe/aboutMe.component.scss"
+  }
+]

@@ -161,3 +161,6 @@ nav.navbar {
 
 body {
   background: #0a192f; }
+  body .heading1 {
+    color: #ccd6f6;
+    font: 50px; }
